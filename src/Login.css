@@ -1,0 +1,39 @@
+.login__Container{
+    background-image: url("./images/thumb-1920-413977.jpg");
+    background-size: cover;
+    /* height: 100vh; */
+    background-image: no-repeat;
+    background-blend-mode:darken;
+    
+
+}
+.Login{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    height: 100vh;
+   
+}
+.login_wrap > div > img{
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 3em;
+    margin-top: 3em;
+    
+}
+.Login > div{
+    display: flex;
+    flex-direction: column;
+}
+.login_wrap{
+    display: flex;
+    flex-direction: column;
+    background-color: #0B0534A8;
+    padding: 50px 40px ;
+    border-radius: 1.5em;
+    border: 1px solid royalblue;
+    align-content: space-between;
+    width: 42%;
+    
+    
+}

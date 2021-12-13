@@ -1,0 +1,177 @@
+.main__dashboard{
+    display: flex;
+}
+
+
+
+.dashbaord__content{
+    
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    background-image: url("./images/Bg-image.jpg");
+    background-image: no-repeat;
+} 
+
+
+/* Buy Coins Form */
+.buy__coin{
+    display: flex;
+    margin: 60px 40px;
+    color: #fff;    
+}
+.form__wrapper{
+    flex:2;
+    width: 42%;
+    background-color: #0B0534A8;
+    padding: 50px 40px ;
+    border-radius: 1.5em;
+    border: 1px solid royalblue;
+    align-content: space-between;
+    
+}
+.order__summary{
+    flex: 1;
+    margin-left: 3em;
+    background-color:#39006E;
+    border-radius:1.5em;
+    color: #000;
+}
+.order__summary__card > h3{
+    display: flex;
+    align-content: center;
+}
+
+.form__wrapper > h3, .form__wrapper >p{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.form__row{
+   margin-bottom: 1.5em; 
+   display: flex;
+}
+h1{
+    color: #FFA83E;
+    padding-bottom: 0.3em;
+}
+.form__wrapper >p{
+    margin-bottom: 2.5em;
+}
+.input1{
+    flex: 1;
+    justify-content: space-evenly;
+}
+.input2{
+    flex: 1;
+    justify-content: space-evenly;
+}
+input, select, option{
+    white-space: nowrap;
+    height:30px;
+    width: 90%;
+    color: rgba(46, 31, 76, 0.7);
+    border: 2px solid rgba(46, 31, 76, 0.1);
+    border-radius: 5px;
+}
+label{
+    margin-bottom: 2em;
+}
+button{
+    margin-right: 1.5em;
+    cursor: pointer;
+}
+.formData__View{
+    margin: 2em;
+    padding: 1.5em;
+    border-radius:1em;
+    background-color: #1c1c39;
+    /* display: flex; */
+}
+.order-summary__title{
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.order-summary__item{
+    display: flex;
+    flex-direction: column;
+}
+.order-summary__item > span{
+    flex: 1 1;
+}
+.order-summary__field{
+    display: flex;
+    color: #ccccff;
+    font-size: 16px;
+}
+.order-summary__value{
+    display: flex;
+    color: #fff;
+    font-size: 16px;
+   
+}
+.order-summary__item +
+.order-summary__item{
+    margin-top: 25px;
+}
+.order-summary__item-divider{
+    border-top: 1px solid rgba(204, 204, 255, 0.1);
+    margin-top: 25px;
+    margin-bottom: 25px
+}
+.box-container{
+    display: flex;
+    align-self: center;
+    margin-top: 3em;
+}
+.box{
+    align-items: center;
+    background-color: #0B0534A8;
+    padding: 50px 40px;
+    border-radius: 1.5em;
+    border: 1px solid royalblue;
+    justify-self: center;
+    width: 100%;
+}
+.confirmation-summary{
+    display: flex;
+    margin: 1em 2em;
+    padding: 2em 0em;
+    /* background-color: #0B0534A8; */
+    border-radius: 4em;
+    /* border: 1px solid royalblue; */
+}
+.confirmation-summary > ul{
+    padding: 0em 3em;
+    ;
+}
+.confirmation-summary > ul > li {
+    list-style: none;
+    display: flex;
+    align-items: stretch;
+    align-content:center;
+    border-bottom: 1px solid goldenrod;
+    color: honeydew;
+    font-weight: 600;
+    padding-top: 1em;
+}
+.confirmation-summary > ul > li > span{
+    margin-left: 1em;
+}
+label {
+    margin-bottom: 1em;
+    
+}
+.corder-summary-title{
+    color: goldenrod;
+}
+.img__holder{
+    margin-top: 2.5em;
+}
+.transaction_title > p {
+    color: #fff;   
+}
+.transaction__status{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,27 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(180deg, #831678 6%, #270758 66%);
+    max-width: 150px;
+    padding-top: 40px;
+
+}
+.active__page{
+    background-color: #00e586;
+    color: #fff;
+}
+
+
+.sidebar__logo>img{
+    max-height: 40px;
+    margin-bottom: 40px;
+}
+
+.sidebar__logo {
+    transition: transform 0.3s ease-out;
+    transform-style: preserve-3d;
+}
+
